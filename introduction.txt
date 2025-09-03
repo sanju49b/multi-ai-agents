@@ -1,0 +1,52 @@
+Multi Ai Agent:
+
+The key tech Stack Used:
+
+1. Groq -- Large Language Model 
+2. Tavily -- Online Search tool -- fetch the latest news
+3. Jenkins -- For making ci/cd pipelines
+4. Sonarqube -- To check your code for bugs, security issues and bad practices -- For checking code Quality -- detect code bugs, code smells , code duplication
+5. FastAPI -- To build backend apis for handling user requests
+6. LangGraph -- Built upon Langchain -- its is an agentic ai framework
+7. Langchain -- Generative ai framework
+8. Streamlit -- for the front end of the project 
+9. Docker -- for containerzation of the app during deployment
+10. AWS ECS Fargate-- deployment of the application
+11. Github -- It will work as SCM for your project
+
+Project Setup -- 
+
+1. Groq apis
+
+2. Travity apis
+
+3. Virtual envo
+
+4. Logging
+
+5. Custom Exceptions
+
+6. Project Structure
+
+Configuration (Env Vars and Model Selection)
+
+Core (langchain and LangGraph)
+
+FastAPI -- Backend
+
+Streamlit -- Front end
+
+Github -- SCM -- Docker File
+
+
+Jeniks -- Build Image -- Docker
+       -- Fetch Code -- Github Integration -- Jenkins Workspace
+       -- Code Quality Scan -- SonarQube Integration -- Analyze the code
+       -- Build and Push Image -- BUild and Push to ECR -- Deploy
+
+Elastic Container Registry:
+
+AWS Fargate + Load balancer -- static URL 
+
+We can store docker Image
+
