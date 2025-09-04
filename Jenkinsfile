@@ -56,7 +56,7 @@ pipeline{
 
         stage('Deploy to ECS Fargate') {
     steps {
-        withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'aws-token']]) {
+        withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'aws token']]) {
             script {
                 sh """
                 aws ecs update-service \
